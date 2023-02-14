@@ -29,10 +29,10 @@ jobs:
         run: date
         
   imprime_data_ubuntu2:
-    - name: Imprime data atual - Ubuntu
-      runs-on: ubuntu-latest
+    name: Imprime data atual - Ubuntu
+    runs-on: ubuntu-latest
       
-      steps:
+    steps:
       - name: Imprime data atual
         run: date
         needs: 
