@@ -28,7 +28,7 @@ jobs:
       - name: Imprime data atual
         run: date
         
-  imprime_data_ubuntu:
+  imprime_data_ubuntu2:
     - name: Imprime data atual - Ubuntu
       runs-on: ubuntu-latest
       
