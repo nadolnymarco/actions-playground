@@ -5,14 +5,12 @@ on:
   
 jobs:
 
-  checkout_code:
-    name: Faz checkout do codigo
+  create-artifact:
+    name: Cria um artefato
     runs-on: ubuntu-latest
-    env:
-      VARIAVEL_JOB: 33
-      
+         
     steps:
-    - name: Checkout repositório
+    - name: Checkout repository
       uses: actions/checkout@v3.3.0
       
     - name: Upload a Build Artifact
